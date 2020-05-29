@@ -1,0 +1,112 @@
+/* -- Jennifer's CSS stylesheet for QI website -- */
+
+body {
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  min-height: 75rem;
+
+}
+.navbar {
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 5px;
+}
+
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+
+    }
+  }
+.rollover-navbar {
+  background-color: white !important;
+  position: relative;
+   top: 0;
+   align-items: flex-start !important;
+}
+
+.rollover-navbar:hover {
+  background-color: #65c277 !important;
+  height: 100px;
+
+}
+.rollover-navbar:hover > a, .rollover-navbar:hover > h5  {
+  color: #fff !important;
+}
+
+.box_transition {
+  -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+          transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+}
+
+.main-title {
+    margin-top: 10px !important;
+}
+
+.up-arrow {
+    font-size: 3em;
+    margin-left: 12em;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.up-arrow a {
+    color: #65c277;
+    text-decoration: none;
+
+}
+
+.up-arrow a:hover {
+    color: #65c277;
+}
+
+a {
+  color: #65c277;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    .footer {
+      position:fixed;
+      bottom: 0;
+      width:100vw;
+      background-color: #e0e0e0;
+      padding: inherit;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
