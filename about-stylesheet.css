@@ -1,0 +1,26 @@
+/* -- About page stylesheet for QI website -- */
+
+.full-width {
+    min-width: 100vw;
+}
+
+.poi-images {
+    max-width: 400px;
+}
+
+.qi-img {
+    width: 300px;
+}
+
+.alt-grey {
+    background-color: #f4f4f4;
+}
+
+.alt-white {
+    background-color: #f1ebe0;
+}
+
+.text-grey {
+    color: #999;
+    font-size: 15px;
+}
